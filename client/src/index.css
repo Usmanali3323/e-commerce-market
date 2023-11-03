@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,600;1,800;1,900&family=Open+Sans:ital,wght@0,400;1,600&family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400&family=Roboto:wght@300;400;500&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  font-family: "roboto", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+@media screen and (max-width: 770px) {
+  .logo_lg {
+    display: none;
+  }
+  .navbar-brand {
+    font-weight: 500;
+    font-family: "roboto", sans-serif;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (min-width: 770px) {
+  .logo_sm {
+    display: none;
+  }
+  .navbar-brand {
+    font-weight: 700;
+    font-family: "roboto", sans-serif;
+    letter-spacing: 3px;
+  }
+}
+
+/* ===================================
+==============foooter============== */
+
+.footer {
+  color: white;
+  padding: 25px;
+  background: #6495ed;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ffefba;
+  padding: 10px;
+}
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+
+/*=====================================
+============Page Not Found=========== */
+.pnf {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pnf .pnf_button {
+  padding: 5px;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+.pnf .pnf_status {
+  font-size: 100px;
+  font-weight: bolder;
+}
+.pnf h2 {
+  font-size: 50px;
+}
+.pnf .pnf_button a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+/* =========================================
+============contact us=================== */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 776px) {
+  .contact img {
+    width: 40%;
+    height: 40%;
+  }
+}
+/* ========================================
+===========About us===================== */
+.about_img img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 50px;
+}
+.about_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .about_img img {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 0px !important;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .about_info h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    white-space: 2px;
+    line-height: 1.5;
+  }
+  .about_img img {
+    width: 60%;
+    height: 60%;
+    margin-bottom: 0px !important;
+  }
+}
+/* ========================================
+===========Product===================== */
+
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+/* ========================================
+==============cart=========================*/
+.cart_image {
+  width: 100px;
+  height: 100px;
+}
+@media screen and (max-width: 600px) {
+  .cart_image {
+    width: 70px !important;
+    height: 70px !important;
+  }
+}
+
+/*===================================
+===========cart_input===============*/
+@media screen and (max-width: 500px) {
+  .cart_input {
+    font-size: 8px;
+  }
+}
+
+.order_image {
+  width: 70%;
+  height: 70%;
+}
+@media screen and (min-width: 700px) {
+  .order_image {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .order_image {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
+
+/*=========================================
+===============Home=======================*/
+@media screen and (min-width: 760px) {
+  .home_page {
+    min-height: 120vh;
+    overflow-y: auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cart_button {
+    width: 46% !important;
+    font-size: 10px !important;
+  }
+}
+
+/* ===================================
+================User Profile========== */
+.user_Profile {
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+}
+.user_container {
+  background-color: white;
+  box-shadow: black 0px 5px 15px;
+  overflow: hidden;
+}
+.user_container h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+}
+.user_input {
+  width: 300px !important;
+  margin: 2px 0;
+  border-width: 0px !important;
+  background-color: white !important;
+  font-size: 22px;
+  border-bottom: 1px solid black !important;
+  border-radius: 0% !important;
+}
+@media screen and (max-width: 660px) {
+  .user_input {
+    width: 220px !important;
+    font-size: 16px !important;
+  }
+  .user_container h1 {
+    font-size: 30px;
+  }
+}
+
+/* ===================================
+================Product scroll========== */
+@media screen and (min-width: 660px) {
+  .product_scroll {
+    height: 100vh;
+    overflow: scroll;
+  }
+}
+/*cariousel image*/
+@media screen and (max-width: 600px) {
+  .cariousel_image {
+    height: 10rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  .cariousel_image {
+    height: 20rem;
+  }
+}

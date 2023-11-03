@@ -1,0 +1,84 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ua031\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev eslint-config-react-app
+
+PATH: 
+  C:\Users\ua031\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Python311\Scripts;C:\Python311;C:\Windows\System32;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\MongoDB\Server\6.0\bin;C:\mongosh-1.6.0-win32-x64\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;E:\Xamp\mysql\bin;C:\Users\ua031\AppData\Local\Microsoft\WindowsApps;C:\Users\ua031\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\ua031\AppData\Local\atom\bin;C:\Users\ua031\Desktop\Hyper\resources\bin;C:\Program Files\heroku\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\mongosh-1.6.0-win32-x64\bin;C:\Users\ua031\AppData\Roaming\npm;E:\Xamp\mysql\bin;C:\Users\ua031\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-7.8.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\ua031\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:848:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at Socket._onTimeout (node:net:570:8)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7)
+
+npm manifest: 
+  {
+    "name": "client",
+    "proxy": "http://localhost:8080",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "antd": "^5.5.1",
+      "axios": "^1.4.0",
+      "braintree-web-drop-in-react": "^1.2.1",
+      "concurrently": "^8.0.1",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "moment": "^2.29.4",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-helmet": "^6.1.0",
+      "react-icons": "^4.8.0",
+      "react-router-dom": "^6.11.1",
+      "react-scripts": "5.0.1",
+      "react-toastify": "^9.1.3",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
